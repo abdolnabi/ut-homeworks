@@ -1,0 +1,1 @@
+This is the repository made for the exercises of AOS Teharn university Kish Island faculty.
