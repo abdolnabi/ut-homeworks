@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+.env
+.git/
+venv/
+venv
+bin/
+dist/
+/lib
+logs/
+
+# Installer logs
+pip-log.txt
+
+.idea/
+#static
+
