@@ -13,11 +13,9 @@ for i in range(0,9):
     soup=BeautifulSoup(response.content,'lxml')
     for item in soup.select('[data-lid]'):
         try:
-            print('----------------------------------------')
             print(item.select('h3')[0].get_text()+'^'+item.select('a')[0]['href'], file = exportFile)
-            print(item.select('h3')[0].get_text()+'^'+item.select('a')[0]['href'])
-
-
+            #print(item.select('h3')[0].get_text()+'^'+item.select('a')[0]['href'])
+            #print('----------------------------------------')
         except Exception as e:
             # raise e
             print('')
